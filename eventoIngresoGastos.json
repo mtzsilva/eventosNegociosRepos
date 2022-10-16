@@ -1,0 +1,51 @@
+{
+    "version": "0",
+    "id": "33c5923d-e34c-55d0-d21c-077747c74b91",
+    "detail-type": "miorg.IngresoGastos",
+    "source": "INGRESO DE GASTOS",
+    "account": "358479603240",
+    "time": "2022-10-13T00:02:31Z",
+    "region": "us-west-2",
+    "resources": [],
+    "detail": {
+        "idtarea": "INGRESO DE GASTOS",
+        "idreporte": "REP-ABC-20221012235924551105-0000002",
+        "empleado": "EMPLEADO-002",
+        "fechareporte": "2022-02-26T07:08:05.878Z",
+        "gastos": [
+            {
+                "idgasto": "GASTO-XYZ-20221012235924551105-0000002-001",
+                "conceptogasto": "OTROS",
+                "lugargasto": "CDMX",
+                "centrocostos": "OPERACIONES",
+                "montogasto": 222.42,
+                "fechagasto": "2022-02-19T19:35:10.326Z"
+            },
+            {
+                "idgasto": "GASTO-XYZ-20221012235924551105-0000002-002",
+                "conceptogasto": "MATERIALES",
+                "lugargasto": "MONTERREY",
+                "centrocostos": "SISTEMAS",
+                "montogasto": 207.0,
+                "fechagasto": "2022-02-19T05:16:45.439Z"
+            },
+            {
+                "idgasto": "GASTO-XYZ-20221012235924551105-0000002-003",
+                "conceptogasto": "MATERIALES",
+                "lugargasto": "CDMX",
+                "centrocostos": "RECHUM",
+                "montogasto": 107.34,
+                "fechagasto": "2022-02-19T21:05:41.332Z"
+            },
+            {
+                "idgasto": "GASTO-XYZ-20221012235924551105-0000002-004",
+                "conceptogasto": "TRANSPORTE",
+                "lugargasto": "MONTERREY",
+                "centrocostos": "RECHUM",
+                "montogasto": 25.18,
+                "fechagasto": "2022-02-19T07:41:31.071Z"
+            }
+        ],
+        "totalreporte": 561.94
+    }
+}

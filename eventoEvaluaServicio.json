@@ -1,0 +1,27 @@
+{
+    "version": "0",
+    "id": "5711e197-fbd7-4046-e0df-6aced0303cf0",
+    "detail-type": "miorg.EvaluaServicio",
+    "source": "EVALUA SERVICIO",
+    "account": "358479603240",
+    "time": "2022-10-12T23:41:16Z",
+    "region": "us-west-2",
+    "resources": [],
+    "detail": {
+        "idtarea": "EVALUA SERVICIO",
+        "idreporte": "REP-ABC-20221012233505592290-0000001",
+        "empleado": "EMPLEADO-004",
+        "aprobador": "APROBADOR-003",
+        "broker": "BROKER-001",
+        "fechareporte": "2022-01-05T16:53:48.270Z",
+        "fechaaprobacion": "2022-01-12T16:51:34.841Z",
+        "fechapago": "2022-01-19T15:26:02.738Z",
+        "aprobado": "Y",
+        "pagado": "Y",
+        "totalreporte": 319.54,
+        "montoaprobado": 319.54,
+        "montopagado": 319.54,
+        "calificacion": 1,
+        "razon": "RETRASOPAGO"
+    }
+}

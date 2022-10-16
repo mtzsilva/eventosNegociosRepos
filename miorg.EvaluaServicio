@@ -1,0 +1,70 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Event"
+    },
+    "paths": {},
+    "components": {
+      "schemas": {
+        "Event": {
+          "type": "object",
+          "required": ["idtarea", "idreporte", "empleado", "aprobador", "broker", "fechareporte", "fechaaprobacion", "fechapago", "aprobado", "pagado", "totalreporte", "montoaprobado", "montopagado", "calificacion", "razon"],
+          "properties": {
+            "idtarea": {
+              "type": "string"
+            },
+            "idreporte": {
+              "type": "string"
+            },
+            "empleado": {
+              "type": "string"
+            },
+            "aprobador": {
+                "type": "string"
+            },
+            "broker": {
+                "type": "string"
+            },
+            "fechareporte": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "fechaaprobacion": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "fechapago": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "aprobado": {
+                "type": "string"
+            },
+            "pagado": {
+              "type": "string"
+            },
+            "totalreporte": {
+              "type": "number",
+              "format": "double"
+            },
+            "montoaprobado": {
+                "type": "number",
+                "format": "double"
+            },
+            "montopagado": {
+                "type": "number",
+                "format": "double"
+            },
+            "calificacion": {
+                "type": "number",
+                "format": "integer"
+            },
+            "razon": {
+                "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+{
+    "version": "0",
+    "id": "7a2be595-cab7-eef3-f519-49f6659782d4",
+    "detail-type": "miorg.PagoGastos",
+    "source": "PAGO DE GASTOS",
+    "account": "123456789012",
+    "time": "2022-10-13T00:04:35Z",
+    "region": "us-west-2",
+    "resources": [],
+    "detail": {
+        "idtarea": "PAGO DE GASTOS",
+        "idreporte": "REP-ABC-20221012235924549111-0000001",
+        "empleado": "EMPLEADO-001",
+        "aprobador": "APROBADOR-001",
+        "broker": "BROKER-001",
+        "fechareporte": "2022-08-20T14:49:26.807Z",
+        "fechaaprobacion": "2022-08-27T20:14:18.074Z",
+        "aprobado": "Y",
+        "pagado": "Y",
+        "fechapago": "2022-09-07T02:43:21.310Z",
+        "totalreporte": 447.26,
+        "montoaprobado": 447.26,
+        "montopagado": 447.26
+    }
+}

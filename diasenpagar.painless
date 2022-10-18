@@ -1,0 +1,7 @@
+int diasenpagar = -1;
+if (doc['detail.pagado.keyword'].size() == 1 && doc['detail.pagado.keyword'] != null && doc.containsKey('detail.pagado')) {
+    if (doc['detail.pagado.keyword'].value == 'Y') {
+        diasenpagar = (int) ((doc['detail.fechapago'].value.millis - doc['detail.fechareporte'].value.millis)/1000.0/86400.0);
+    }
+}
+return (diasenpagar);

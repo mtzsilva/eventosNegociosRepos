@@ -1,0 +1,7 @@
+int diasenaprobar = -1;
+if (doc['detail.aprobado.keyword'].size() == 1 && doc['detail.aprobado.keyword'] != null && doc.containsKey('detail.aprobado')) {
+    if (doc['detail.aprobado.keyword'].value == 'Y') {
+        diasenaprobar = (int) ((doc['detail.fechaaprobacion'].value.millis - doc['detail.fechareporte'].value.millis)/1000.0/86400.0);
+    }
+}
+return (diasenaprobar);
